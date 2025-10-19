@@ -23,8 +23,8 @@ Testing the C Program for the desired output.
 
 # PROGRAM:
 
-Developed:Rahul Krishna.S
-Reg No:212223040162
+Developed:Varadaram SK
+Reg No:212223040232
 
 ## C Program that illustrate communication between two process using unnamed pipes using Linux API system calls
 
@@ -90,7 +90,6 @@ printf("THE RESULTS OF CLIENTS ARE ...... \n"); write(1,buff,n);
 
 ## OUTPUT
 
-![Screenshot 2024-04-15 103134](https://github.com/RahulKrishna05/Linux-IPC-Pipes/assets/162027231/488ab1d9-f5de-407f-8490-643a009cb95f)
 
 ## C Program that illustrate communication between two process using named pipes using Linux API system calls
 
