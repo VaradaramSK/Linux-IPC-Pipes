@@ -23,13 +23,8 @@ Testing the C Program for the desired output.
 
 # PROGRAM:
 
-Developed:Varadaram SK
-Reg No:212223040232
-
 ## C Program that illustrate communication between two process using unnamed pipes using Linux API system calls
-
 ```
-#include<stdio.h>
 #include<stdlib.h>
 #include<sys/types.h> 
 #include<sys/stat.h> 
@@ -56,7 +51,6 @@ client(p1[1],p2[0]);
 wait(waits); 
 return 0; 
 } 
-
 void server(int rfd,int wfd) 
 { 
 int i,j,n; 
@@ -77,7 +71,6 @@ int i,j,n; char fname[2000];
 char buff[2000];
 printf("ENTER THE FILE NAME :");
 scanf("%s",fname);
-printf("CLIENT SENDING THE REQUEST .... PLEASE WAIT\n");
 sleep(10);
 write(wfd,fname,2000);
 n=read(rfd,buff,2000);
@@ -88,11 +81,13 @@ printf("THE RESULTS OF CLIENTS ARE ...... \n"); write(1,buff,n);
 
 
 
+
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/0421e21b-4f5e-4b99-b97d-dd440375f9e5)
+
 
 
 ## C Program that illustrate communication between two process using named pipes using Linux API system calls
-
 ```
 #include <unistd.h>
 #include <stdlib.h>
@@ -108,9 +103,9 @@ exit(EXIT_SUCCESS);
 
 
 
-## OUTPUT
 
-![Screenshot 2024-04-15 103158](https://github.com/RahulKrishna05/Linux-IPC-Pipes/assets/162027231/e2856f7a-4e66-4107-8cb4-074dda6fc14d)
+## OUTPUT
+![image](https://github.com/user-attachments/assets/ace245da-fe14-4942-86e3-e78753bebe8c)
 
 # RESULT:
 The program is executed successfully.
